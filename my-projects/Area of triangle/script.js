@@ -16,7 +16,7 @@ function area1() {
   console.log(y);
   let z = (1 / 2) * x * y;
 
-  rel.innerText = `Height = ${x} , Base = ${y} , Area = ${z}`;
+  rel1.innerText = `Height = ${x} , Base = ${y} , Area = ${z}`;
   console.log(z);
 }
 
@@ -27,8 +27,13 @@ function area2() {
   let y = inp2.value;
   let z = inp3.value;
 
-  let w = (x + y + z) / 2;
+  let w = x + y + z;
+  w = w / 2;
+  console.log(w);
+  let k = w * (w - x)(w - y)(w - z);
 
-  let Q = Math.sqrt("")
+  let q = Math.sqrt(k);
+  console.log(q);
+  rel2.innerText = ` Area = ${q}`;
 }
 btn2.addEventListener("click", area2);
