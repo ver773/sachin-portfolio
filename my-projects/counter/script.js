@@ -1,8 +1,9 @@
 let btn = document.querySelector(".button1");
 let rel = document.querySelector(".result");
-let x;
+let x = 1;
 function count() {
-  x++;
   console.log(x);
+  rel.innerText = `${x}`;
+  x++;
 }
 btn.addEventListener("click", count);
