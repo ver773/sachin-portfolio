@@ -11,7 +11,7 @@ function switchbackground() {
     mode = "dark";
   } else {
     body.style.backgroundColor = "white";
-    btn.style.color = "whlte";
+    btn.style.color = "white";
     btn.style.backgroundColor = "black";
     mode = "light";
   }
