@@ -6,11 +6,13 @@ let mode = "light";
 function switchbackground() {
   if (mode == "light") {
     body.style.backgroundColor = "black";
-    btn.style.color = "white";
+    btn.style.color = "black";
+    btn.style.backgroundColor = "white";
     mode = "dark";
   } else {
     body.style.backgroundColor = "white";
-    btn.style.color = "black";
+    btn.style.color = "whlte";
+    btn.style.backgroundColor = "black";
     mode = "light";
   }
 }
