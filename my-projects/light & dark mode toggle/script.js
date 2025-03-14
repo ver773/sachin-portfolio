@@ -6,11 +6,11 @@ let mode = "light";
 function switchbackground() {
   if (mode == "light") {
     body.style.backgroundColor = "black";
-    body.style.color = "black";
+    btn.style.color = "white";
     mode = "dark";
   } else {
     body.style.backgroundColor = "white";
-    body.style.color = "black";
+    btn.style.color = "black";
     mode = "light";
   }
 }
