@@ -11,8 +11,8 @@ let rel2 = document.querySelector(".result2");
 let rel3 = document.querySelector(".result3");
 
 function area1() {
-  let x = inp1m1.value;
-  let y = inp2m1.value;
+  const x = parseFloat(inp1m1.value);
+  let y = parseFloat(inp2m1.value);
 
   console.log(x);
   console.log(y);
@@ -25,9 +25,9 @@ function area1() {
 btn1.addEventListener("click", area1);
 
 function area2() {
-  let x = inp1m2.value;
-  let y = inp2m2.value;
-  let z = inp3m2.value;
+  let x = parseFloat(inp1m2.value);
+  let y = parseFloat(inp2m2.value);
+  let z = parseFloat(inp3m2.value);
   console.log(x);
   console.log(y);
   console.log(z);

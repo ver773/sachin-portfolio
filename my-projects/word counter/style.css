@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.maindiv {
+  border: 0.5px solid black;
+  padding: 30px;
+  border-radius: 7px;
+  background-color: lightcoral;
+}
+.result {
+  margin-top: 10px;
+  text-align: center;
+}
+.h3 {
+  text-align: center;
+  margin: 10px;
+}
