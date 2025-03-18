@@ -16,10 +16,13 @@ let rel3 = document.querySelector(".result3");
 function area1() {
   const x = parseFloat(inp1m1.value);
   let y = parseFloat(inp2m1.value);
-  let z = (1 / 2) * x * y;
+  if (x == "" || y == "") {
+    alert("Please fill value");
+  } else {
+    let z = (1 / 2) * x * y;
 
-  rel1.innerText = `Height = ${x} , Base = ${y} , Area = ${z}`;
-  console.log(z);
+    rel1.innerText = `Height = ${x} , Base = ${y} , Area = ${z}`;
+  }
 }
 
 btn1.addEventListener("click", area1);
@@ -28,12 +31,16 @@ function area2() {
   let x = parseFloat(inp1m2.value);
   let y = parseFloat(inp2m2.value);
   let z = parseFloat(inp3m2.value);
-  let w = x + y + z;
-  w = w / 2;
-  const k = w * (w - x) * (w - y) * (w - z);
-  const q = Math.sqrt(k);
-  console.log(q);
-  rel2.innerText = ` Area = ${q}`;
+  if (x == "" || y == "" || z == "") {
+    alert("Please fill value");
+  } else {
+    let w = x + y + z;
+    w = w / 2;
+    const k = w * (w - x) * (w - y) * (w - z);
+    const q = Math.sqrt(k);
+    console.log(q);
+    rel2.innerText = ` Area = ${q}`;
+  }
 }
 btn2.addEventListener("click", area2);
 
