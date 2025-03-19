@@ -7,9 +7,8 @@ btn.addEventListener("click", () => {
   let u = x.value;
   let g = y.value;
   let cu = country.value;
-if (cu == ){
-
-}
+  if (cu) {
+  }
   let count = u * g;
   rel.innerText = ` ${cu} ${count} `;
   console.log(count);
