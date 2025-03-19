@@ -14,11 +14,14 @@ body {
   padding: 30px;
 }
 .maindiv1 {
-  background-color: aliceblue;
+  padding: 20px;
+  border: 1px;
 }
 .maindiv2 {
-  background-color: aliceblue;
+  padding: 20px;
+  border: 1px;
 }
 .maindiv3 {
-  background-color: aliceblue;
+  padding: 20px;
+  border: 1px;
 }
