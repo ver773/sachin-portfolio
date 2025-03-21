@@ -3,7 +3,7 @@ let body = document.querySelector("body");
 
 let mode = "light";
 
-function switchbackground() {
+btn.addEventListener("click", () => {
   if (mode == "light") {
     body.style.backgroundColor = "black";
     btn.style.color = "black";
@@ -15,6 +15,4 @@ function switchbackground() {
     btn.style.backgroundColor = "black";
     mode = "light";
   }
-}
-
-btn.addEventListener("click", switchbackground);
+});
