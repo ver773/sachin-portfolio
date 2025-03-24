@@ -2,6 +2,7 @@ let body = document.querySelector("body");
 let inp = document.querySelector(".maininput");
 let btn = document.querySelector(".mainbutton");
 let rel = document.querySelector(".result");
+let box = document.querySelector(".maindiv");
 
 btn.addEventListener("click", () => {
   let fullvalue = inp.value;
@@ -18,8 +19,10 @@ btn.addEventListener("click", () => {
     body.style.backgroundColor = "orange";
     rel.innerText = `${fullvalue} have ${len} letters`;
   } else {
+    console.log(fullvalue);
+    console.log(len);
     body.style.backgroundColor = "gray";
-    maindiv.style.backgroundColor = "white";
+    box.style.backgroundColor = "white";
     rel.innerText = `${fullvalue} have ${len} letters`;
   }
 });

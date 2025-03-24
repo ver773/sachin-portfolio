@@ -12,6 +12,7 @@ let btn3 = document.querySelector(".button3");
 let rel1 = document.querySelector(".result1");
 let rel2 = document.querySelector(".result2");
 let rel3 = document.querySelector(".result3");
+let relp = document.querySelector(".resultperimeter");
 
 function area1() {
   const x = inp1m1.value;
@@ -28,18 +29,24 @@ function area1() {
 btn1.addEventListener("click", area1);
 
 function area2() {
-  let x = inp1m2.value;
-  let y = inp2m2.value;
-  let z = inp3m2.value;
+  let x = Number(inp1m2.value);
+  let y = Number(inp2m2.value);
+  let z = Number(inp3m2.value);
+
   if (x == "" || y == "" || z == "") {
     alert("Please fill value");
   } else {
     let w = x + y + z;
+    console.log(w);
     w = w / 2;
     const k = w * (w - x) * (w - y) * (w - z);
+    console.log(w);
+    console.log(k);
     const q = Math.sqrt(k);
     console.log(q);
     rel2.innerText = ` Area = ${q}`;
+    let perimeter = x + y + z;
+    relp.innerText = `Perimeter = ${perimeter}`;
   }
 }
 btn2.addEventListener("click", area2);
