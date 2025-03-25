@@ -15,12 +15,27 @@ body {
   display: flex;
   justify-content: center;
 }
-.button {
-  margin-right: 10px;
-}
+
 .maindiv {
   background-color: #ffffff;
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.input1 {
+  font-size: 30px;
+  border-radius: 7px;
+}
+.input2 {
+  font-size: 30px;
+  border-radius: 7px;
+}
+.button,
+.button2 {
+  font-size: 30px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 17px;
+  margin-top: 10px;
+  background-color: #e3f2fd;
 }
