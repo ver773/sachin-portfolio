@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <input type="number" placeholder="Enter a number" class="input1" />
-    <input type="number" placeholder="Enter a number" class="input2" />
-    <div>
-      <button class="buttonadd">Add</button>
-      <button class="buttonsub">Sub</button>
-      <button class="buttonmul">Mul</button>
-      <button class="buttondiv">Div</button>
+    <div class="maindiv">
+      <h1 class="mainheading">Calculator</h1>
+      <div class="inputs">
+        <input type="number" placeholder="Enter a number" class="input1" />
+        <input type="number" placeholder="Enter a number" class="input2" />
+      </div>
+      <div class="buttons">
+        <button class="buttonadd">Add</button>
+        <button class="buttonsub">Sub</button>
+        <button class="buttonmul">Mul</button>
+        <button class="buttondiv">Div</button>
+        <button class="buttondel">Clear</button>
+      </div>
+      <p class="result"></p>
     </div>
-    <p class="result"></p>
+
     <script src="./script.js"></script>
   </body>
 </html>

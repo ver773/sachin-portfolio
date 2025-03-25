@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 121, 39);
+}
+
+.input1,
+.input2 {
+  font-size: 30px;
+  border-radius: 7px;
+  border: none;
+}
+.maindiv {
+  padding: 30px;
+}
+.buttonadd {
+  margin: 10px;
+  margin-top: 25px;
+  padding: 2.5px;
+  font-size: 30px;
+  background-color: wheat;
+  border: none;
+  color: rgb(40, 40, 160);
+  border-radius: 7px;
+}
+.buttonmul {
+  margin: 10px;
+  padding: 2.5px;
+  margin-top: 25px;
+  font-size: 30px;
+  background-color: wheat;
+  border: none;
+  color: rgb(40, 40, 160);
+  border-radius: 7px;
+}
+.buttonsub {
+  margin: 10px;
+  margin-top: 25px;
+  padding: 2.5px;
+  font-size: 30px;
+  background-color: wheat;
+  border: none;
+  color: rgb(40, 40, 160);
+  border-radius: 7px;
+}
+.buttondiv {
+  margin: 10px;
+  margin-top: 25px;
+  padding: 2.5px;
+  font-size: 30px;
+  background-color: wheat;
+  border: none;
+  color: rgb(40, 40, 160);
+  border-radius: 7px;
+}
+.buttondel {
+  margin: 10px;
+  margin-top: 25px;
+  padding: 2.5px;
+  font-size: 30px;
+  background-color: wheat;
+  border: none;
+  color: rgb(40, 40, 160);
+  border-radius: 7px;
+}
+.result {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindiv {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: rgb(189, 105, 15);
+}
+.mainheading {
+  text-align: center;
+  margin-bottom: 20px;
+}

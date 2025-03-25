@@ -4,6 +4,7 @@ let btna = document.querySelector(".buttonadd");
 let btns = document.querySelector(".buttonsub");
 let btnm = document.querySelector(".buttonmul");
 let btnd = document.querySelector(".buttondiv");
+let delbtn = document.querySelector(".buttondel");
 let rel = document.querySelector(".result");
 
 btna.addEventListener("click", () => {
@@ -18,19 +19,24 @@ btns.addEventListener("click", () => {
   let input2value = Number(inp2.value);
   let add = input1value - input2value;
   console.log(add);
-  rel.innerText = `Addition = ${add}`;
+  rel.innerText = `Subtraction = ${add}`;
 });
 btnm.addEventListener("click", () => {
   let input1value = Number(inp1.value);
   let input2value = Number(inp2.value);
   let add = input1value * input2value;
   console.log(add);
-  rel.innerText = `Addition = ${add}`;
+  rel.innerText = `Multiplication = ${add}`;
 });
 btnd.addEventListener("click", () => {
   let input1value = Number(inp1.value);
   let input2value = Number(inp2.value);
   let add = input1value / input2value;
   console.log(add);
-  rel.innerText = `Addition = ${add}`;
+  rel.innerText = `Division = ${add}`;
+});
+delbtn.addEventListener("click", () => {
+  inp1.value = "";
+  inp2.value = "";
+  rel.innerText = "";
 });
