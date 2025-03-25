@@ -10,30 +10,46 @@ let rel = document.querySelector(".result");
 btna.addEventListener("click", () => {
   let input1value = Number(inp1.value);
   let input2value = Number(inp2.value);
-  let add = input1value + input2value;
-  console.log(add);
-  rel.innerText = `Addition = ${add}`;
+  if (input1value == "" || input2value == "") {
+    alert("Please enter value in input field");
+  } else if (input1value >= 0 || input2value >= 0) {
+    let add = input1value + input2value;
+    console.log(add);
+    rel.innerText = `Addition = ${add}`;
+  }
 });
 btns.addEventListener("click", () => {
   let input1value = Number(inp1.value);
   let input2value = Number(inp2.value);
-  let add = input1value - input2value;
-  console.log(add);
-  rel.innerText = `Subtraction = ${add}`;
+  if (input1value == "" || input2value == "") {
+    alert("Please enter value in input field");
+  } else if (input1value >= 0 || input2value >= 0) {
+    let add = input1value - input2value;
+    console.log(add);
+    rel.innerText = `Subtraction = ${add}`;
+  }
 });
 btnm.addEventListener("click", () => {
   let input1value = Number(inp1.value);
   let input2value = Number(inp2.value);
-  let add = input1value * input2value;
-  console.log(add);
-  rel.innerText = `Multiplication = ${add}`;
+  if (input1value == "" || input2value == "") {
+    alert("Please enter value in input field");
+  } else if (input1value >= 0 || input2value >= 0) {
+    let add = input1value * input2value;
+    console.log(add);
+    rel.innerText = `Multiplication = ${add}`;
+  }
 });
 btnd.addEventListener("click", () => {
   let input1value = Number(inp1.value);
   let input2value = Number(inp2.value);
-  let add = input1value / input2value;
-  console.log(add);
-  rel.innerText = `Division = ${add}`;
+  if (input1value == "" || input2value == "") {
+    alert("Please enter value in input field");
+  } else if (input1value >= 0 || input2value >= 0) {
+    let add = input1value / input2value;
+    console.log(add);
+    rel.innerText = `Division = ${add}`;
+  }
 });
 delbtn.addEventListener("click", () => {
   inp1.value = "";
