@@ -19,7 +19,8 @@ body {
 .result {
   margin-top: 10px;
   text-align: center;
-  font-size: 19px;
+  font-size: 21px;
+  font-weight: 700;
 }
 .h2 {
   text-align: center;
@@ -29,10 +30,12 @@ body {
   font-size: 20px;
   border: 1px solid black;
   border-radius: 3px;
+  padding: 3px;
 }
 
 .mainbutton {
   font-size: 20px;
   border: 1px solid black;
   border-radius: 3px;
+  padding: 3px;
 }
