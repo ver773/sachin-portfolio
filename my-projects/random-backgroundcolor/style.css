@@ -1,3 +1,13 @@
 body {
+  height: 100vh;
   color: #669450;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 7px;
+  cursor: pointer;
 }

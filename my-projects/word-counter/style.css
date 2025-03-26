@@ -19,8 +19,20 @@ body {
 .result {
   margin-top: 10px;
   text-align: center;
+  font-size: 19px;
 }
-.h3 {
+.h2 {
   text-align: center;
-  margin: 10px;
+  margin: 25px;
+}
+.maininput {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.mainbutton {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
 }

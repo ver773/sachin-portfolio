@@ -11,11 +11,11 @@ btn.addEventListener("click", () => {
 
   if (price == "" || totalcurrency == "" || currency == "") {
     alert("Please fill input field");
+  } else if (currency / 1) {
+    alert("Please enter currency name not a number");
   } else if (currency == "Doller") {
-    price = 80;
     let count = price * totalcurrency;
     rel.innerText = `${totalcurrency} ${currency} in indian rupees =>  ${count} `;
-    x.value = "";
   } else if (currency == "Euro") {
     let count = price * totalcurrency;
     rel.innerText = `${totalcurrency} ${currency} in indian rupees =>  ${count} `;
