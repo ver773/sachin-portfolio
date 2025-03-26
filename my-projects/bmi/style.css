@@ -34,7 +34,7 @@ body {
 .button2 {
   font-size: 30px;
   border-radius: 7px;
-  border: none;
+  border: 1px solid black;
   margin-right: 17px;
   margin-top: 10px;
   background-color: #e3f2fd;
